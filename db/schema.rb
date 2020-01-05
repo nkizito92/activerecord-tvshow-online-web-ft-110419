@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2) do
 
   create_table "shows", force: :cascade do |t|
@@ -19,5 +20,8 @@ ActiveRecord::Schema.define(version: 2) do
     t.integer "rating"
     t.string "season"
   end
+=======
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> 19c4409e917bffb74cd0190355f818bfa9fc567c
 
 end
